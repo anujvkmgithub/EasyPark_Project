@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>EasyPark Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- ========== Links and Scripts for Sellers Galaxy Login/SignUp Form modal ============-->
+
+  <!-- jQuery library -->
+  <script src="added_ui/jquery/js/jquery.min.js">
+  </script>
+  <script src="added_ui/jquery/js/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="added_ui/jquery/css/jquery-ui.css">
+
+  <!-- Popper JS -->
+  <script src="added_ui/popper/popper.min.js">
+  </script>
+
+  <!-- js file for forms validation -->
+  <script src="added_ui/javascript/forms-validation.js"></script>
+
+  <!-- ======================================================= -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">EasyPark</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+
+          <!-- Button trigger for login form modal -->
+          <li><a href="#" role="button" data-bs-toggle="modal" data-bs-target="#loginModalForm">Sign
+              In</a></li>
+          <!-- Button trigger for sign up form modal -->
+          <li><a href="#" role="button" data-bs-toggle="modal" data-bs-target="#signUpFormModal">Sign
+              Up</a></li>
+
+
+          <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/Parking_image.jpg) 50% 0 no-repeat fixed; background-size: cover;">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-up" data-aos-delay="200">
+          <h1>Welcome to Our Parking Reservation System</h1>
+            <h2>Reserve a spot in advance, check parking availability, and manage your reservations easily.</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#" class="btn-get-started scrollto" data-bs-toggle="modal" data-bs-target="#signUpFormModal">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <!-- <img src="assets/img/hero-img.png" class="img-fluid animated" alt=""> -->
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <!-- Main start here -->
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about" style="background: url(assets/img/where_to_park.jpg) 50% 0 no-repeat fixed; background-size: cover;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              "At EasyPark, we believe that finding and reserving parking should be as easy as your daily commute. Our platform is designed to help drivers find secure, affordable parking spots with just a few clicks—no more circling the block or dealing with unexpected fees."
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Convenience: Making parking as easy as possible.</li>
+              <li><i class="ri-check-double-line"></i> Transparency: Clear pricing and no hidden fees.</li>
+              <li><i class="ri-check-double-line"></i> Security: Ensuring your personal information and payment details are protected.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              "Our mission is to simplify parking for everyone, providing real-time availability, a seamless booking experience, and a stress-free way to secure a spot before you even reach your destination. We’re dedicated to creating a platform that’s not only user-friendly but also trustworthy and transparent."
+              
+            </p>
+            <a href="#" class="btn-learn-more">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End About Us Section -->
+
+    <!-- ======= Services Section ======= -->
+    <!-- <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>4 Simple steps to start selling online</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a>1. Register and list your products</a></h4>
+              <p>Register your business for free and create a product catalogue. Get free training on how to run your
+                online business.
+              </p>
+              <p>Get your documentation, photo-shoots, cataloguing, etc. done with ease from our Professional Services
+                network.</p>
+              <p>Our Snapdeal Advisors will help you at every step and fully assist you in taking your business online.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a>2. Receive orders and sell across India</a></h4>
+              <p>Once listed, your products will be available to millions of users across India.
+              </p>
+              <p>Get orders and manage your online business via our top of the line Seller Panel and Seller Zone Mobile
+                App.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a>3. Package and ship with ease</a></h4>
+              <p>On receiving orders, pack the goods & leave the worries of pick-up & delivery to our courier partners.
+              </p>
+              <p>With Snapdeal Plus facility, simply hand over the responsibilities of inventory storage, packaging &
+                delivering the orders to us</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a>4. Get payments and grow your business</a></h4>
+              <p>Receive quick and hassle-free payments in your account once your orders are fulfilled.
+              </p>
+              <p>Expand your business with low interest & collateral-free business loans through Capital Assist.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End Services Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact" style="background: url(assets/img/ParkingImage-1.jpg) 50% 0 no-repeat fixed; background-size: cover;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Jabalpur,(M.P)</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>anuj.v5555@gmai.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>9425895533</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="#" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  </main>
+  <!-- End main -->
+
+  <!-- ======= Seller Galaxy Forms Modal Components Start ======= -->
+
+  <!-- Login form Modal Component start -->
+  <!-- <section id="loginSection"> -->
+  <div class="modal fade text-left" id="loginModalForm" tabindex="-1" role="dialog" aria-labelledby="myLoginModalLabel"
+    aria-hidden="true" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="LoginModalTitle">Sign In</h4>
+
+          <!-- Close button -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
+          </button>
+        </div>
+        <form action="#">
+          <div class="modal-body">
+
+            <!-- Email input -->
+            <div class="form-group">
+              <input id="LoginEmail" type="text" placeholder="Email Address" class="form-control">
+              <small id="loginEmailcheck" class="form-text invalid-feedback">
+              </small>
+            </div>
+
+            <!-- Password input -->
+            <div class="form-group">
+              <input id="LoginPassword" type="password" placeholder="Password" class="form-control">
+              <small id="loginPassCheck" class="form-text invalid-feedback">
+              </small>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="col-12">
+              <div class='form-check'>
+                <div class="checkbox">
+                  <input type="checkbox" id="LoginCheckbox" class='form-check-input' checked>
+                  <label for="LoginCheckbox">Remember Me</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sign In submit button -->
+            <a id="loginSubmitBtn" class="btn btn-primary ml-1 btn-block" type="submit" href="#" role="button">Sign
+              In</a>
+
+            <div class="divider col-12">
+              <div class="divider-text">or</div>
+            </div>
+
+            <!-- Sign In with google option -->
+            <a href="#" class="btn btn-outline-secondary btn-block">
+              <img alt="Logo" src="added_ui/svg/google-icon.svg" class="h-15px me-2">Sign In with
+              Google</a>
+
+          </div>
+          <div class="modal-footer">
+
+            <!-- button for toggle between modals -->
+            <a data-bs-target="#forgotPasswordModal" data-bs-dismiss="modal" data-bs-toggle="modal"
+              class="btn btn-secondary ml-1 btn-block btn-sm" type="submit" href="#" role="button">Forgot Password</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- </section> -->
+  <!-- Login Form Modal Component end -->
+
+  <!-- Forgot Password Form Modal Component start -->
+  <!-- <section id="forgotPasswordSection"> -->
+  <div class="modal fade text-left" id="forgotPasswordModal" tabindex="-1" role="dialog"
+    aria-labelledby="myForgotPasswordModalLabel" aria-hidden="true" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="ForgotPassModalTitle">Forgot Password</h4>
+
+          <!-- Close button -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
+          </button>
+        </div>
+        <form action="#">
+          <div class="modal-body">
+            <!-- Email input -->
+            <div class="form-group">
+              <input id="forgotPasswordEmail" type="text" placeholder="Email Address" class="form-control">
+              <small id="forgotPassEmailValue" class="form-text invalid-feedback">
+              </small>
+            </div>
+
+            <!-- Get password submit button -->
+            <a id="forgotPasswordSubmitBtn" class="btn btn-primary ml-1 btn-block" type="submit" href="#"
+              role="button">Submit</a>
+          </div>
+          <div class="modal-footer">
+
+            <!-- button for toggle between modals -->
+            <a data-bs-target="#loginModalForm" data-bs-dismiss="modal" data-bs-toggle="modal"
+              class="btn btn-secondary ml-1 btn-block btn-sm" type="submit" href="#" role="button">Back to Sign In</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- </section> -->
+  <!-- Forgot Password Form Modal Component end -->
+
+  <!--Sign Up form Modal Component start -->
+  <!-- <section id="signUpSection"> -->
+  <div class="modal fade text-left" id="signUpFormModal" tabindex="-1" role="dialog"
+    aria-labelledby="mySignUpModalLabel" aria-hidden="true" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="SignUpModalTitle">Sign Up</h4>
+
+          <!-- Close button -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
+          </button>
+        </div>
+        <form action="#">
+          <div class="modal-body">
+            <div class="row">
+              <!-- First name input -->
+              <div class="form-group col">
+                <input id="firstName" type="text" placeholder="First name" aria-label="First name" class="form-control">
+                <small id="firstNameCheck" class="form-text invalid-feedback">
+                  <!-- add class="text-muted" if you want white warning text-->
+                </small>
+              </div>
+
+              <!-- Last name input -->
+              <div class="form-group col">
+                <input id="lastName" type="text" placeholder="Last name" aria-label="Last name" class="form-control">
+                <small id="LastNameCheck" class="form-text invalid-feedback">
+                </small>
+              </div>
+
+            </div>
+
+            <!-- Email input -->
+            <div class="form-group">
+              <input id="SignUpEmail" type="text" placeholder="Email Address" class="form-control">
+              <small id="signUpEmailcheck" class="form-text invalid-feedback">
+              </small>
+            </div>
+
+            <!-- Password input -->
+            <div class="form-group">
+              <input id="signUpPassword" type="password" placeholder="Password" class="form-control">
+              <small id="signUpPassCheck" class="form-text invalid-feedback">
+              </small>
+            </div>
+
+            <!-- Confirm Password input -->
+            <div class="form-group">
+              <input id="confirmPassword" type="password" placeholder="Confirm Password" class="form-control">
+              <small id="confirmPasscheck" class="form-text invalid-feedback">
+              </small>
+            </div>
+
+            <!-- Sign Up button  -->
+            <a id="signUpSubmitBtn" href="#" class="btn btn-primary ml-1 btn-block" type="submit" role="button">Sign
+              Up
+            </a>
+
+            <!-- Divider  -->
+            <div class="divider col-12">
+              <div class="divider-text">or</div>
+            </div>
+
+            <!-- Sign up with google option -->
+            <a href="profile-setup-page.html" class="btn btn-outline-secondary btn-block">
+              <img alt="Logo" src="added_ui/svg/google-icon.svg" class="h-15px me-2">Sign Up with
+              Google</a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- </section> -->
+  <!-- Sign Up Form Modal Component end -->
+
+  <!-- ======= Forms Modal Components End======= -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+      
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row justify-content-between">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>EasyPark</h3>
+            <p>
+              Jabalpur <br>
+              Madhya Pradesh<br>
+              India <br><br>
+              <strong>Phone:</strong> +91 9425895533<br>
+              <strong>Email:</strong> Anuj.v5555@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>EasyPark</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+
+  <!-- Back to top button -->
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

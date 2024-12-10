@@ -1,0 +1,46 @@
+.card {
+    margin-bottom: 2.2rem;
+    border: none;
+    border-radius: 0.3rem;  /* added style */
+    box-shadow: -8px 12px 18px 0 rgb(25 42 70 / 13%);  /* added style */
+}
+
+.card .card-title {
+    font-size: 1.2rem
+}
+
+.card .card-body {
+    padding: 1.5rem
+}
+
+.nav-link {
+    border: none;
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 0
+}
+
+button:focus {
+    outline: 0;
+}
+
+.col-md-6 {
+    max-width: 500px;
+}
+
+#pills-tab {
+    margin-bottom: 1rem;
+}
+
+.btn-sm {
+    padding: .25rem .5rem;
+}
+
+.form-group {
+    margin-bottom: .7rem
+}
+.form-group small {
+    font-size: .7rem
+}
